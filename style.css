@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: linear-gradient(to right,rgb(200, 220, 181),rgba(114, 112, 163, 0.075))
+}
+
+.container {
+    border-bottom: 3px solid red;
+    text-align: center;
+    height: 120px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.container h1 {
+    padding: 10px;
+}
+
+.nav {
+    
+    background: linear-gradient(
+        to right,rgb(53, 181, 220),rgb(115, 115, 52)
+    );
+    position: sticky;
+    top: 2px;
+    height: 50px;
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+
+.nav ul {
+
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+li a {
+    color: rgb(20, 44, 92);
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration-line: none;
+}
+
+li a:hover {
+    font-size: 1.2rem;
+    text-decoration: overline;
+    border-bottom: 2px solid white;
+}
+
+#img1 {
+    float: left;
+    margin: 20px;
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.aside {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.aside > h3,#sidepicture {
+    margin-bottom: 20px;
+}
+
+.details img {
+    width: 35px;
+    padding: 4px;
+
+}
+
+.sec {
+    width: 75%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 192px;
+}
+
+.sec strong {
+    font-size: larger;
+}
+
+.sec a:hover {
+    font-size: 1.3em;
+}
+
+.sec a:active {
+    color: white;
+}
+
+@media screen and (min-width:700px) {
+
+    aside,
+    section,
+    footer {
+        width: 100%;
+        
+    }
+}
+
+#sidepicture {
+    border-radius: 45%;
+    width: 50px;
+}
+
+.footer {
+  
+    color: white;
+    height: fit-content;
+    clear: both;
+    background-color: black;
+    padding: 10px;
+    text-align: right;
+}
+
+.resaside{
+    float: left;
+    width: 30%;
+    height: fit-content;
+    background-color: rgba(255, 255, 254, 0.659)
+}
+
+.resempty{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+ }
+
+.resdiv1 {
+    background-color: aqua;
+    padding: 3px;
+    text-align: center;
+}
+
+.resdiv2 {
+    background-color: black;
+    padding: 3px;
+    text-align: center;
+}
+
+.resdiv3 {
+    background-color: blue;
+    padding: 3px;
+    text-align: center;
+}
+
+.language {
+    margin-left: 25px;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resborder {
+    border-top: 2px solid black;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.resload {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.resload2 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar1 {
+    width: 70%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
+.resload4 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar2 {
+    width: 40%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
+.resload6 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar3 {
+    width: 20%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
+#stylekath {
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#number {
+    text-align: center;
+}
+
+.resimg3 {
+    width: 40px;
+    margin-top: 30px;
+    margin-left: 38px;
+
+}
+
+.hobbyimg {
+    display: flex;
+    
+    
+}
+
+img {
+    width: 100%;
+}
+
+.ressec {
+    float: left;
+    width: 70%;
+    background-color: white;
+}
+
+.ressec > * {
+    padding-left: 30px;
+}
+
+.resname {
+    font-size: 2.0em;
+    margin-top: 1.4em;
+}
+
+.resjob {
+    margin-top: 2.3em;
+    font-size: medium;
+    color: rgb(73, 192, 238);
+}
+
+.resinfo{
+    margin-top: 2em;
+}
+
+.resexperience {
+    margin-top: 2em;
+    
+}
+
+.resexperiencebor {
+    margin-top: 1.5em;
+    border: 1px solid grey;
+    margin-left: 30px;
+    
+    
+}
+
+.resjobexp > *{
+    padding-top: 1.3em;
+}
+
+#jobtitles {
+    color: rgb(73, 192, 238);
+}
+
+.resload8 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar4 {
+    width: 90%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
+.resload10 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar5 {
+    width: 85%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
+.resload12 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar6 {
+    width: 80%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
+.resload14 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar7 {
+    width: 90%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
+.resload16 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar8 {
+    width: 90%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
+.resload18 {
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 1.3em;
+    background:white;
+}
+
+.bar9 {
+    width: 75%;
+    background: rgb(47, 162, 160);
+    border-radius: 1.3em;
+    font-size: x-small;
+}
+
